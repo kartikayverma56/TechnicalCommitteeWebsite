@@ -2040,3 +2040,7 @@ body {
 			background-size: cover;
 		
 		} 
+.row{
+	display: flex;
+	justify-content: space-around;
+}

@@ -12,9 +12,16 @@
 // }
 
 // requestAnimationFrame(raf)
+// skip it
 
 
-// skip
+
+// JavaScript for hiding the preloader after the content is loaded
+
+window.addEventListener('load', function () {
+    const loader = document.querySelector('.preloader');
+    loader.classList.add('hide');
+});
 
 
 

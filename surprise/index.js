@@ -30,7 +30,7 @@ const btn = document.getElementById("circular-button");
 const img = document.getElementById('button-image')
 btn.addEventListener('click',()=>{
     img.style.animation="growIn 2s ease-in";
-    document.getElementById("ring").style.animation="growIn 3s ease-in";
+    document.getElementById("ring").style.animation="growIn 2s ease-in";
 
     
 })

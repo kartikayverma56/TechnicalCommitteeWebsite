@@ -86,7 +86,7 @@ body, html {
 }
 
 /* Dark red glowing ring around the button */
-.ring {
+#ring {
   display: flex;
   justify-content: center;
   align-items: center;

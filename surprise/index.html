@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/surprise/" />
+        <script>
+        // Check if the URL ends with a slash
+        if (window.location.pathname.slice(-1) !== '/') {
+            // If not, redirect to the same path with a trailing slash
+            window.location.href = window.location.pathname + '/';
+        }
+        </script>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

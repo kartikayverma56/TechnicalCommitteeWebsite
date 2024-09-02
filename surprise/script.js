@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 textContent.style.opacity = '1';
             }, frameImages.length * 300 + 500); // Wait for the images to settle
-        }, 800);
+        }, 750);
 
     });
 });

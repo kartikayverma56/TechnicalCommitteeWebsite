@@ -1,5 +1,5 @@
 body {
-  background-image: url('bg2.jpg'); /* Default desktop background */
+  background-image: url('./countdown/bg2.jpg'); /* Default desktop background */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

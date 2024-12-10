@@ -1,5 +1,5 @@
 body {
-  background-image: url('./countdown/bg2.jpg'); /* Default desktop background */
+  background-image: url('./bg2.jpg'); /* Default desktop background */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,7 +86,7 @@ body {
 /* Smartphone-Specific Adjustments */
 @media (max-width: 1100px) {
   body {
-    background-image: url('./countdown/bg3.jpg'); /* Smartphone-specific background */
+    background-image: url('./bg3.jpg'); /* Smartphone-specific background */
     background-size: cover; /* Ensures full viewport coverage */
     background-repeat: no-repeat;
     background-position: center;
